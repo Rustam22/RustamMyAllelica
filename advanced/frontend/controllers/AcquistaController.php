@@ -16,6 +16,8 @@ use frontend\models\Barcode;
 use yii\db\Exception;
 use yii\helpers\Url;
 
+// dfdfffd
+//dfdfdfd
 
 
 
@@ -25,9 +27,7 @@ class AcquistaController extends AppController {
     private $nutrizionePrice  = 169;
     private $nutrizioneId     = 1;
 
-    private $prevenzionePrice = 170;
     private $prevenzioneId    = 2;
-    // bullshit
 
     private $acquistaPrice = 249;
     private $acquistaId    = 3;
