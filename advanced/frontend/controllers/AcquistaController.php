@@ -20,9 +20,10 @@ use yii\helpers\Url;
 
 
 
+
 class AcquistaController extends AppController {
 
-    private $nutrizionePrice  = 169;
+    private $nutrizionePrice  = 170;
     private $nutrizioneId     = 1;
 
     private $prevenzionePrice = 169;
