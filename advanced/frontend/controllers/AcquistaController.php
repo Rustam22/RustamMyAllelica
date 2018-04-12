@@ -28,7 +28,6 @@ class AcquistaController extends AppController {
     private $nutrizioneId     = 1;
 
     private $prevenzionePrice = 169;
-    private $prevenzionePrice = 170;
     private $prevenzioneId    = 2;
 
     private $acquistaPrice = 249;
