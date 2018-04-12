@@ -1,0 +1,269 @@
+#modalSymptom {
+    color: #333 !important;
+}
+#modalSymptom textarea {
+	display: block;
+}
+#modalSymptom .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 80%;
+}
+#formSymptom {
+	color: #333;
+	font-weight: 400;
+}
+#formSymptom input {
+	margin-right: 10px;
+}
+.modal-title {
+	float: left !important;
+}
+.moreInfoN.tot table {
+    width: 100%;
+}
+.moreInfoN.tot th {
+    text-align: center !important;
+}
+.moreInfoN.tot td {
+	border: 1px #666 solid;
+}
+button.close {
+	float: right;
+	opacity: 1 !important;
+}
+button.close span {
+	font-size: 34px;
+	color: #333 !important;
+}
+.plane-kcal {
+    font-size: 12px;
+    text-align: left;
+}
+.card-text {
+    white-space: initial;
+}
+.plane-kcal table {
+	width: 75%;
+	display: inline-block;
+}
+.plane-kcal td {
+	padding: 3px;
+	border: 1px #ccc solid;
+	width: 25%;
+	text-align:center;
+}
+.mS {
+	float: right;
+}
+.user-diet .nav {
+    border: 1px solid #c0bbbb;
+    padding: 0px 10px;
+    border-radius: 3px;
+}
+.user-diet .nav > li > a {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #e1dede;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.user-diet .second-menu .active a{
+    background-color: #4CAF50 !important;
+}
+
+
+/* The heart of the matter */
+.user-diet .testimonial-group {
+    width: 100%;
+}
+@media only screen and (max-width: 991px) {
+    .user-diet .testimonial-group {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .user-diet .testimonial-group .text-center .col-xs-4 {
+        width: auto !important;
+    }
+}
+
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.testimonial-group > .row > .col-xs-4, .user-meal {
+    display: inline-block;
+    float: none;
+}
+.testimonial-group .user-meal {
+
+}
+
+
+/* Decorations */
+.user-diet .col-xs-4 {
+    /*color: #fff;
+    font-size: 48px;*/
+    padding-bottom: 20px;
+    padding-top: 18px;
+    height: 500px;
+}
+
+
+.user-diet .col-xs-4 .panel-primary {
+    border-color: #4CAF50;
+}
+
+.user-diet .col-xs-4 .panel-primary .panel-heading {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.user-diet .col-xs-4 .panel-primary .panel-body {
+    font-size: 20px;
+    border: 1px solid #02061821;
+    white-space: initial;
+}
+
+
+
+/*****  Cards styles  ******/
+@media only screen and (max-width: 1000px) {
+    .user-diet .card {
+        margin-left: 15px !important;
+        width: 25rem !important;
+    }
+}
+.user-diet .card {
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: 400;
+    margin-left: 40px;
+    width: 35rem;
+    /*box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0), 0 7px 15px 0 rgba(0,0,0,.12);*/
+    font-family: Roboto,sans-serif !important;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 55px;
+    vertical-align: top;
+}
+
+.user-diet .card .card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.user-diet .card .primary-color, .stepper li.active a .circle, .stepper li.completed a .circle {
+    background-color: #4285f4!important;
+    color: #fff!important;
+}
+.user-diet .card .card-header {
+    padding: 1.35rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: 27px;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.user-diet .card h3 {
+    font-weight: 300;
+    font-size: 1.75rem;
+    font-family: Roboto,sans-serif;
+    line-height: 1.2;
+    margin-top: 0;
+    display: block;
+}
+
+.user-diet .card *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.user-diet .card .card-body {
+    /*position: relative;
+    padding: 20px 20px;
+    line-height: 1.5;
+    border-bottom: 1px dashed #a3a1a1;*/
+
+    /*position: relative;
+    padding: 20px 20px;
+    margin-top: 10px;
+    border-top: 1px solid #A3A1A2;
+    line-height: 1.5;
+    border-bottom: 1px solid #a3a1a1;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0), 0 7px 15px 0 rgba(0,0,0,.12);*/
+
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+    line-height: 1.5;
+    border-bottom: 1px dashed #a3a1a1;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0), 0 7px 15px 0 rgba(0,0,0,.12);
+}
+.user-diet .card .card-body:last-child {
+    border-bottom: none;
+}
+
+.user-diet .card .card-body h4 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.user-diet .card .card-body .card-text {
+    font-size: 15px;
+    line-height: 21px;
+    color: #747373;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.user-diet .card .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.user-diet .card .btn-primary {
+    background-color: #4285f4!important;
+    color: #fff!important;
+}
+.user-diet .card .btn-primary:hover {
+    background-color: #2664ca!important;
+    color: #fff!important;
+}
+.user-diet .card .btn {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px auto;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff!important;
+    font-weight: 400;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    line-height: 1.5;
+    box-shadow: 0 3px 5px 0px rgba(0,0,0,.18), 0px 0px 0px 0px rgba(0,0,0,.15);
+}
+.user-diet .left-tab-menu ul .active a {
+    background-color: #4285f4;
+}
+
+.stupid-class {
+    background-color: #5cb85c !important;
+    color: white;
+}
+.sundayLunch {
+	font-size: 14px !important;
+}
